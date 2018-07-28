@@ -35,6 +35,10 @@ RUN echo "CleanUp ..." &&\
 # Copy files from rootfs to the container
 ADD rootfs /
 
+# Permissions
+RUN echo "Setting permissions ..." &&\
+	chmod +x /usr/local/bin/invoiceninja-cron.sh
+
 ############################################################
 # Execution
 ############################################################
