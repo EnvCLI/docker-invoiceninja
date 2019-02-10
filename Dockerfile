@@ -3,7 +3,7 @@
 ############################################################
 
 # Extends: OpenJDK 8 (Alpine)
-FROM invoiceninja/invoiceninja:alpine-4.5.1
+FROM invoiceninja/invoiceninja:alpine-4.5.9
 
 ############################################################
 # Environment Configuration
